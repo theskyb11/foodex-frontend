@@ -1,0 +1,123 @@
+.login-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-form{
+    width: 65%!important;
+    font-size: 0.8em;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    z-index: 2;
+    border-radius: 5px;
+    height: 95vh;
+    margin-top: 20px;
+}
+
+.input-login{
+    margin-bottom: 20px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #bbbbbb;
+    outline: none;
+    padding-bottom: 5px;
+    margin-left: 40px;
+    transition: 0.1s all;
+    position: relative;
+    display: block;
+}
+
+.input-login:focus{
+    border-bottom: 2px solid #1e53ff;
+    transition: 0.1s all;
+}
+
+.form-heading{
+    margin-top: 50px;
+    font-weight: 1000;
+    margin-left: 40px;
+    font-size: 2.5em;
+}
+
+.form-subhead{
+    font-weight: 600;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+.login-submit{
+    width: 80%;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #1e53ff;
+    margin-left: 40px;
+    margin-top: 20px;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+.link{
+    text-decoration: none;
+    text-underline: none;
+    color: #1e53ff;
+}
+
+.forgot-pass{
+    position: relative;
+    margin-left: 40px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+@media (max-width: 575.98px){
+    .logo-div{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .logo-div{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo-div{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .logo-div{
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo-div{
+        display: flex;
+    }
+}
+
+@media (min-width: 1400px) {
+    .logo-div{
+        display: flex;
+    }
+}
+
+.register-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#show-pwd {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
